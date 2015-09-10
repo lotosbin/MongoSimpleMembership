@@ -8,7 +8,7 @@ using Xunit;
 namespace LyphTEC.MongoSimpleMembership.Tests
 {
     // ReSharper disable InconsistentNaming
-    public class MongoRoleProviderTest : IUseFixture<RoleProviderTestFixture>
+    public class MongoRoleProviderTest : ICollectionFixture<RoleProviderTestFixture>
     {
         private RoleProviderTestFixture _fixture;
         private MongoRoleProvider _provider;

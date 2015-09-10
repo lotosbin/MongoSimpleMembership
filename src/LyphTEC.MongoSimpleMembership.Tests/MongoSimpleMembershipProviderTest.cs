@@ -14,7 +14,7 @@ namespace LyphTEC.MongoSimpleMembership.Tests
 {
     // ReSharper disable InconsistentNaming
 
-    public class MongoSimpleMembershipProviderTest : IUseFixture<MembershipProviderTestFixture>
+    public class MongoSimpleMembershipProviderTest : ICollectionFixture<MembershipProviderTestFixture>
     {
         private MembershipProviderTestFixture _fixture;
         private MongoSimpleMembershipProvider _provider;
