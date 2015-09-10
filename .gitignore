@@ -103,3 +103,4 @@ Desktop.ini
 
 # Mac crap
 .DS_Store
+/src/.vs/config
