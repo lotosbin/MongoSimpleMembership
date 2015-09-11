@@ -6,7 +6,7 @@ For more information about SimpleMembership see this post by Jon Galloway : [Sim
 
 ## Installation
 
-Available on [NuGet](http://nuget.org/packages/LyphTEC.MongoSimpleMembership/):
+Available on [NuGet](https://www.myget.org/F/lotosbin-public-nuget/api/v2):
 
 ```
 PM> Install-Package LyphTEC.MongoSimpleMembership
